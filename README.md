@@ -1,1 +1,1 @@
-# https://TatsianaMark/rsschool-cv/cv
+# https://TatsianaMark.github.io/rsschool-cv/cv
