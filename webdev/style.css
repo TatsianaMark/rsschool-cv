@@ -152,3 +152,52 @@ body{
 .btn_second_block{
     padding-top: 30px;
 }
+.our-community{
+    height: 504px;
+    background: #F5F6F7;
+}
+.users{
+    align-items: center;
+    width: 298px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    padding-top:174px;
+    margin-left: 269px;
+}
+.descriptions_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #373737;
+}
+.description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #4E4E4E;
+    padding-top: 10px;
+}
+.slider{
+    padding-top: 20px;
+    padding-left: 706px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slider_nav{
+    border: 1px red solid;
+    width: 83px;
+    height: 18px;
+}
