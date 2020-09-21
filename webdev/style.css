@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1600px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.header_menu{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 37px 515px 38px 508px;
+}
+.menu_link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.menu_link:active{
+
+}
+.menu_link:hover{
+    text-decoration: underline overline;
+    padding-bottom: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.your_life{
+    height: 788px;
+    background-image: url("assets/bg-image.png");
+    background-repeat: no-repeat;
+}
+.title_main{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    padding-top:135px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title_small{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 548px;
+    padding-right: 548px;
+
+}
+.btn{
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 708px;
+    margin-right: 708px;
+    padding: 15px 47px;
+
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+}
+.btn > p{
+    position: static;
+    width: 90px;
+    height: 16px;
+    left: calc(50% - 90px/2);
+    top: calc(50% - 16px/2);
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+.socials{
+    padding-top: 183px;
+    padding-left: 715px;
+    padding-right: 715px;
+
+}
+.nav > a:not(:last-child){
+    margin-right: 26px;
+}
