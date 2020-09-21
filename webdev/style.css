@@ -12,6 +12,10 @@ body{
     align-items: center;
 
 }
+.web{
+    color: #00AFDB;
+    margin-left: 48%;
+}
 .header_menu{
     flex-direction: row;
     justify-content: space-between;
