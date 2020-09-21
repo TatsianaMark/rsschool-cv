@@ -74,13 +74,15 @@ body{
     margin-top: 30px;
     margin-left: 708px;
     margin-right: 708px;
-    padding: 15px 47px;
+}
 
+.btn_blue{
+    padding: 15px 47px;
     width: 184px;
     height: 46px;
     background: #00AFDB;
 }
-.btn > p{
+.btn_blue > p{
     position: static;
     width: 90px;
     height: 16px;
@@ -109,4 +111,44 @@ body{
 }
 .nav > a:not(:last-child){
     margin-right: 26px;
+}
+.rappresent{
+    height: 842px;
+    align-items: center;
+    display: flex;
+}
+.double_block{
+    display: flex;
+    flex-direction: row;
+    padding-left: 269px;
+}
+.info_block{
+    width: 407px;
+    height: 233px;
+    margin-right: 248px;
+    margin-top: 175px;
+
+}
+.info_block > p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+.small_text{
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+.btn_second_block{
+    padding-top: 30px;
 }
